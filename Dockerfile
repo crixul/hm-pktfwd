@@ -6,7 +6,7 @@ ARG BUILD_BOARD
 ARG BUILD_ARCH
 
 # Set up correct image paths
-ARG PKTFWD_PATH=crixul/packet_forwarder:1
+ARG PKTFWD_PATH=crixul/packet_forwarder:2
 ARG SX1302_PATH=nebraltd/sx1302_hal:$BUILD_ARCH-3760434a18e6ba47b695c22786195e57cc6b4c1c
 
 # Pull the builds for later use
